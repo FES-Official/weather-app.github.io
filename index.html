@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Photo Frame Portfolio</title>
+    <title>Weather-App</title>
     <style>
       * {
         margin: 0;
@@ -193,7 +193,6 @@
         uv_index.innerHTML = `${result.current.uv}`;
         let weather_status = document.querySelector(".weather-status");
         weather_status.innerHTML = `${result.current.condition.text}`;
-        if (result) console.log(result);
       });
     </script>
   </body>
